@@ -6,7 +6,7 @@ plt.plot(a, b, 'b--', label = 'a')
 plt.xlabel('this is x')
 plt.ylabel('this is y')
 plt.title('this is a demo')
-plt.legend() # 将样例显示出来
+plt.legend()
 
 plt.plot()
 plt.show()
