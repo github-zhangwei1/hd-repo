@@ -34,8 +34,17 @@ print(x) # will print 1
 
 ```python {cmd=true matplotlib=true}
 import matplotlib.pyplot as plt
-plt.plot([1,2,3,4])
-plt.show() # show figure
+a = [1, 2, 3, 4] 
+b = [5, 6, 7, 8]
+
+plt.plot(a, b, 'b--', label = 'aa')
+plt.xlabel('this is x')
+plt.ylabel('this is y')
+plt.title('this is a demo')
+plt.legend() # 将样例显示出来
+
+plt.plot()
+plt.show()
 ```
 
 
